@@ -1,0 +1,14 @@
+<hibernate-mapping>
+	<class name="com.fradeco.ticketMaster3001.model.Revision"
+			table="REVISION">
+		
+		<id name="revisionID" column="REVISION_ID">
+			<generator class="native" />
+		</id>
+		
+		<property name="date" column="DATE" />
+		<property name="description" column="DESCRIPTION" />
+		<property name="duration" column="DURATION" />
+	
+	</class>
+</hibernate-mapping>
