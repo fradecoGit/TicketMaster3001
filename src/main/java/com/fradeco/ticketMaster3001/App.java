@@ -15,6 +15,6 @@ public class App
     	Revision rev = new Revision("12-11-2017", 1.0f,"drucker druckt nicht");
     	s.save(rev);
     	s.close();
-        System.out.println( "Hello World!" );
+        System.out.println( "Hello World2!" );
     }
 }
