@@ -6,6 +6,7 @@ import org.hibernate.SessionFactory;
 import com.fradeco.ticketMaster3001.model.Revision;
 import com.fradeco.ticketMaster3001.util.SessionFactoryManager;
 
+
 public class Main 
 {
     public static void main( String[] args ) {
